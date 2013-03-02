@@ -70,6 +70,8 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+			'enableProfiling'=>true,
+        	'enableParamLogging'=>true,
 		),
 		
 		'errorHandler'=>array(
