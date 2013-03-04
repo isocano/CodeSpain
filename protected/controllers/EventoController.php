@@ -158,7 +158,7 @@ class EventoController extends Controller
 		$dataProvider = new CActiveDataProvider('Eventos');
 		$array_eventos = $dataProvider->getData();
 		return $array_eventos;
-	}	
+	}
 
 	/**
 	 * Manages all models.
